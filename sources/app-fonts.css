@@ -1,0 +1,48 @@
+
+
+@font-face {
+    font-family: "Zoho_Puvi_Regular";
+    font-display: swap;
+    src: url("../assets/fonts/Zohopuvi/Zoho_Puvi_Regular.woff2") format("woff2");
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Zoho_Puvi_Medium";
+    font-display: swap;
+    src: url("../assets/fonts/Zohopuvi/Zoho_Puvi_Medium.woff2") format("woff2");
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Zoho_Puvi_SemiBold";
+    font-display: swap;
+    src: url("../assets/fonts/Zohopuvi/Zoho_Puvi_Semibold.woff2") format("woff2");
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Zoho_Puvi_Bold";
+    font-display: swap;
+    src: url("../assets/fonts/Zohopuvi/Zoho_Puvi_Bold.woff2") format("woff2");
+    font-weight: 700;
+    font-style: normal;
+}
+
+:root {
+    --font-regular: Zoho_Puvi_Regular, sans-serif;
+    --font-medium: Zoho_Puvi_Medium, sans-serif;
+    --font-sbold: Zoho_Puvi_SemiBold, sans-serif;
+    --font-bold: Zoho_Puvi_Bold, sans-serif;
+}
+
+
+.font-regular { font-family: var(--font-regular); }
+.font-medium { font-family: var(--font-medium); }
+.font-sbold { font-family: var(--font-sbold); }
+.font-bold { font-family: var(--font-bold); }
+
+

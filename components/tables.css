@@ -1,0 +1,13 @@
+
+
+/* tables */
+.cp-table { width: 100%; border-spacing: 0; border-radius: 12px; border-collapse: separate; border: 1px solid var(--c-gray-30); overflow: hidden; }
+.cp-table th { background-color: var(--c-gray-30); color: var(--c-gray-90); font-family: var(--font-sbold); white-space: nowrap; }
+.cp-table th, .cp-table td { padding: 14px 25px 14px; border-bottom: 1px solid var(--c-gray-30); }
+.cp-table .t-row:last-child td { border-bottom: none; }
+
+.cp-table th:first-child { border-top-left-radius: 11px; border-bottom-left-radius: 11px; }
+.cp-table th:last-child { border-top-right-radius: 11px; border-bottom-right-radius: 11px; }
+/* tables */
+
+

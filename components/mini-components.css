@@ -1,0 +1,30 @@
+
+
+/* buttons */
+.btn {
+    display: inline-block;
+    background: none;
+    border: none;
+    cursor: pointer;
+    height: 34px;
+    font-size: 14px;
+    padding: 0 24px;
+    transition: var(--fast-trans);
+    border-radius: 4px;
+}
+
+.list-selected .btn-primary {
+    color: var(--c-white);
+    background-color: var(--c-primary);
+}
+
+.btn-primary:hover {
+    background-color: var(--c-primary-100);
+    color: var(--c-white);
+}
+/* \\\ buttons */
+
+
+
+
+

@@ -27,6 +27,3 @@ p { line-height: 1.4; color: var(--c-gray-40); }
 a { text-decoration: none; cursor: pointer; }
 b { font-family: var(--font-bold); }
 
-.zuse-icon { display: block; flex-shrink: 0; width: 1em; height: 1em; font-size: 14px; fill: currentColor; }
-
-

@@ -284,6 +284,43 @@
 .mL70 { margin-left: 70px; }
 /* \\ spaces */
 
+.max-w-10 { max-width: 10px; }
+.max-w-15 { max-width: 15px; }
+.max-w-20 { max-width: 20px; }
+.max-w-25 { max-width: 25px; }
+.max-w-40 { max-width: 40px; }
+.max-w-45 { max-width: 45px; }
+.max-w-50 { max-width: 50px; }
+.max-w-60 { max-width: 60px; }
+.max-w-75 { max-width: 75px; }
+.max-w-85 { max-width: 85px; }
+.max-w-90 { max-width: 90px; }
+.max-w-95 { max-width: 95px; }
+.max-w-100 { max-width: 100px; }
+.max-w-125 { max-width: 125px; }
+.max-w-135 { max-width: 135px; }
+.max-w-150 { max-width: 150px; }
+.max-w-160 { max-width: 160px; }
+.max-w-175 { max-width: 175px; }
+.max-w-180 { max-width: 180px; }
+.max-w-190 { max-width: 190px; }
+.max-w-200 { max-width: 200px; }
+.max-w-240 { max-width: 240px; }
+.max-w-250 { max-width: 250px; }
+.max-w-300 { max-width: 300px; }
+.max-w-350 { max-width: 350px; }
+.max-w-400 { max-width: 400px; }
+.max-w-450 { max-width: 450px; }
+.max-w-500 { max-width: 500px; }
+.max-w-550 { max-width: 550px; }
+.max-w-600 { max-width: 600px; }
+.max-w-650 { max-width: 650px; }
+.max-w-700 { max-width: 700px; }
+.max-w-750 { max-width: 750px; }
+.max-w-800 { max-width: 800px; }
+.max-w-900 { max-width: 900px; }
+.max-w-1000px { max-width: 1000px; }
+
 /* cursor */
 .c-default { cursor: default }
 .cp { cursor: pointer; }

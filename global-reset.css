@@ -13,7 +13,7 @@
     font-weight: unset;
 }
 
-.app-body {
+body {
     background-color: var(--c-black);
     font-family: var(--font-regular);
     color: var(--c-gray-95);

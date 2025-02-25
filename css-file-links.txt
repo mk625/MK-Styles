@@ -1,0 +1,21 @@
+
+<!-- common css -->
+    <!-- sources -->
+        <link rel="stylesheet" href="https://mk625.github.io/MK-Styles/sources/app-fonts.css">
+        <link rel="stylesheet" href="https://mk625.github.io/MK-Styles/sources/color-schema.css">
+    <!-- \\\ sources -->
+    
+    <!-- global -->
+        <link rel="stylesheet" href="https://mk625.github.io/MK-Styles/global-reset.css">
+    <!-- \\\ global -->
+
+    <!-- components -->
+        <link rel="stylesheet" href="https://mk625.github.io/MK-Styles/components/animations.css">
+        <link rel="stylesheet" href="https://mk625.github.io/MK-Styles/components/flex.css">
+        <link rel="stylesheet" href="https://mk625.github.io/MK-Styles/components/mini-components.css">
+        <link rel="stylesheet" href="https://mk625.github.io/MK-Styles/components/responsive.css">
+        <link rel="stylesheet" href="https://mk625.github.io/MK-Styles/components/style-bits.css">
+        <link rel="stylesheet" href="https://mk625.github.io/MK-Styles/components/tables.css">
+    <!-- \\\ components -->
+<!-- \\\ common css -->
+

@@ -14,12 +14,12 @@
 }
 
 body {
-    background-color: var(--c-black);
     font-family: var(--font-regular);
     color: var(--c-gray-95);
     font-size: 14px;
     line-height: 1.3;
     text-align: left;
+    overflow: hidden;
 }
 
 ul li { list-style: none; }

@@ -13,9 +13,9 @@
     border-radius: 4px;
 }
 
-.list-selected .btn-primary {
-    color: var(--c-white);
+.btn.btn-primary {
     background-color: var(--c-primary);
+    color: var(--c-white);
 }
 
 .btn-primary:hover {
@@ -23,5 +23,10 @@
     color: var(--c-white);
 }
 /* \\\ buttons */
+
+
+/* input */
+
+/* \\\ input */
 
 

@@ -44,6 +44,7 @@
 
 .input-ele:hover {
     border-color: var(--c-gray-80);
+    box-shadow: 0px 0px 3px 2px #f9f9f99c;
 }
 
 .input-ele:focus {

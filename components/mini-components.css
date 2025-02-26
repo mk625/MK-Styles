@@ -27,18 +27,17 @@
 
 /* input */
 .input-ele {
-    resize: none;
-    position: relative;
-    text-overflow: ellipsis;
-    background-color: var(--c-white);
-    border-radius: 3px;
-    height: 35px;
-    border: 1px solid var(--c-gray-90);
-    margin: 0px;
-    outline: none;
+    max-width: 300px;
     width: 100%;
-    line-height: 18px;
+    height: 35px;
+    padding-inline: 12px;
+    background-color: var(--c-white);
     font-size: 14px;
+    resize: none;
+    text-overflow: ellipsis;
+    border-radius: 4px;
+    border: 1px solid var(--c-gray-85);
+    outline: none;
     transition: var(--default-trans);
 }
 
@@ -47,8 +46,8 @@
 }
 
 .input-ele:focus {
-    border-color: 1px solid #2cc1ff;
-    box-shadow: 0px 0px 3px 2px rgba(44,193,255,0.2)
+    border-color: #2cc1ff;
+    box-shadow: 0px 0px 3px 2px rgba(44,193,255,0.2);
 }
 /* \\\ input */
 

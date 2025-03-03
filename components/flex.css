@@ -28,13 +28,13 @@
 .aI-stretch { align-items: stretch; }
 
 /* gap values  */
-.g5 { gap: 5px; }
-.g8 { gap: 8px; }
-.g10 { gap: 10px; }
-.g12 { gap: 12px; }
-.g15 { gap: 15px; }
-.g20 { gap: 20px; }
-.g25 { gap: 25px; }
-.g30 { gap: 30px; }
+.g-5 { gap: 5px; }
+.g-8 { gap: 8px; }
+.g-10 { gap: 10px; }
+.g-12 { gap: 12px; }
+.g-15 { gap: 15px; }
+.g-20 { gap: 20px; }
+.g-25 { gap: 25px; }
+.g-30 { gap: 30px; }
 
 

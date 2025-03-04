@@ -1,7 +1,7 @@
 
 
 /* btns */
-.btn { border: none; outline: none; background: none; user-select: none; display: inline-flex; align-items: center; justify-content: center;; min-width: 60px; padding: 8px 16px; border-radius: var(--br-radius-global-md); color: var(--c-gray-95); text-align: center; cursor: pointer; transition: var(--default-trans), 0.1s ease-in-out transform; }
+.btn { min-width: 60px; height: 35px; padding: 0 24px; border: none; outline: none; background: none; user-select: none; border-radius: var(--br-radius-global-md); color: var(--c-gray-95); text-align: start; cursor: pointer; transition: var(--default-trans); }
 .btn:active { transform: translateY(3%); }
 
 .btn.btn-primary { background-color: var(--c-app-theme); border: 1px solid var(--c-app-theme); }
@@ -15,9 +15,6 @@
 
 .btn.btn-alert { background-color: var(--c-status-orange); border: 1px solid var(--c-status-orange); }
 .btn.btn-alert:hover { background-color: var(--c-status-orange-dark); border: 1px solid var(--c-status-orange-dark); }
-
-.btn.btn-icon { display: inline-flex; align-items: center; justify-content: center; gap: 5px; }
-.btn.btn-icon [class^="plus-"] { font-size: 12px; }
 /* \\\ btns */
 
 

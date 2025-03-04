@@ -25,6 +25,17 @@
     --c-link: #3e9ee4;
     --c-link-hover: #3e9ee4;
 
+
+    --c-status-orange: #E1720C;
+    --c-light-status-orange: #FFF6ED;
+    --c-status-red: #CC1414;
+    --c-light-status-red: #FFEDED;
+    --c-status-blue: #1470CC;
+    --c-light-status-blue: #EDF6FF;
+    --c-status-green: #0A7741;
+    --c-light-status-green: #F1FAF6;
+
+    
     /* borders */
         --c-border: #d0d5df;
         --c-border-dark: #DBE0EA;

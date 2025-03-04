@@ -22,18 +22,32 @@
     --c-gray-98: #fafafa;
     --c-gray-99: #fcfcfc;
 
+
+    --c-app-theme: #0070ef;
+    --c-app-theme-dark: #0061d0;
+
+
+    /* status */
+        --c-status-orange: #d76903;
+        --c-status-orange-dark: #E1720C;
+        --c-light-status-orange: #FFF6ED;
+
+        --c-status-red: #CC1414;
+        --c-status-red-dark: #b50000;
+        --c-light-status-red: #FFEDED;
+
+        --c-status-blue: #1470CC;
+        --c-status-blue: #0861ba;
+        --c-light-status-blue: #EDF6FF;
+
+        --c-status-green: #0A7741;
+        --c-status-green-dark: #05723b;
+        --c-light-status-green: #F1FAF6;
+    /* \\\ status */
+
+
     --c-link: #3e9ee4;
     --c-link-hover: #3e9ee4;
-
-
-    --c-status-orange: #E1720C;
-    --c-light-status-orange: #FFF6ED;
-    --c-status-red: #CC1414;
-    --c-light-status-red: #FFEDED;
-    --c-status-blue: #1470CC;
-    --c-light-status-blue: #EDF6FF;
-    --c-status-green: #0A7741;
-    --c-light-status-green: #F1FAF6;
 
     
     /* borders */

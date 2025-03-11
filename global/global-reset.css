@@ -33,6 +33,7 @@ button {
 ::placeholder { color: var(--c-gray-70); }
 
 h1, h2, h3, h4, h5, h6 { font-family: var(--font-medium); }
+h1, h2, h3, h4, h5, h6, b, strong, th { font-weight: normal; }
 ul li { list-style: none; }
 p { line-height: 1.4; color: var(--c-gray-40); }
 a { text-decoration: none; cursor: pointer; color: var(--c-link); }

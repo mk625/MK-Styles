@@ -13,7 +13,6 @@
     text-overflow: ellipsis;
     border-radius: 4px;
     border: 1px solid var(--c-gray-85);
-    outline: none;
     transition: var(--default-trans);
 }
 
@@ -38,7 +37,7 @@
     .dropdown-btn .arrow-icon { font-size: 12px; color: var(--c-blue-gray-50); }
     .dropdown-btn .btn-value { flex-grow: 1; display: inline-block; color: var(--c-gray-10); overflow: hidden; white-space: nowrap; text-overflow: ellipsis; }
     .btn-link .btn-value { color: var(--c-link); }
-    .dropdown-btn .select-input { border: none; outline: none; padding: 10px 4px; }
+    .dropdown-btn .select-input { border: none; padding: 10px 4px; }
 
     /* dropdown */
     .dropdown-options-container { background-color: var(--c-white); text-align: start; position: fixed; border-radius: 6px; border: 1px solid var(--c-gray-90); transition: transform 0.3s ease-in-out, visibility 0.3s ease-in-out, opacity 0.3s ease-in-out; pointer-events: none; z-index: 1003; overflow: hidden; transform: translateY(-15px); visibility: hidden; opacity: 0; box-shadow: 0px 0px 10px #D1D3D8; }
@@ -49,7 +48,7 @@
     .dropdown-options-container .dropdown-lists { padding: 5px; }
     .dropdown-options-container .search-box-container { padding: 10px 10px 0px; }
     .dropdown-options-container .simple-search-box { width: 100%; }
-    .dropdown-options-container .dropdown-list-btn { display: block; width: 100%; background: none; padding: 8px 14px; background-color: var(--c-white); font-size: 14px; color: var(--c-gray-30); transition: var(--default-trans); border-radius: 4px; text-align: start; cursor: pointer; border: none; outline: none; }
+    .dropdown-options-container .dropdown-list-btn { display: block; width: 100%; background: none; padding: 8px 14px; background-color: var(--c-white); font-size: 14px; color: var(--c-gray-30); transition: var(--default-trans); border-radius: 4px; text-align: start; cursor: pointer; border: none; }
     .dropdown-options-container .dropdown-list-btn:hover,
     .dropdown-options-container .dropdown-list-btn:focus,
     .dropdown-options-container .dropdown-list.list-selected .dropdown-list-btn { background-color: #F5F7FA; }

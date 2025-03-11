@@ -1,7 +1,7 @@
 
 
 /* btns */
-.btn { min-width: 60px; height: 35px; padding: 0 24px; border: none; outline: none; background: none; user-select: none; border-radius: var(--br-radius-global-md); color: var(--c-gray-95); text-align: start; cursor: pointer; transition: var(--default-trans); }
+.btn { min-width: 60px; height: 35px; padding: 0 24px; border: none; background: none; user-select: none; border-radius: var(--br-radius-global-md); color: var(--c-gray-95); text-align: start; cursor: pointer; transition: var(--default-trans); }
 .btn:active { transform: translateY(3%); }
 
 .btn.btn-primary { background-color: var(--c-app-theme); border: 1px solid var(--c-app-theme); }
@@ -21,12 +21,12 @@
 
 /* small btns */
 /* plain btn */
-.plain-btn { border: none; outline: none; background: none; display: inline-block; font-size: 14px; color: inherit; cursor: pointer; transition: var(--fast-trans), 0.1s ease-in-out transform; }
+.plain-btn { border: none; background: none; display: inline-block; font-size: 14px; color: inherit; cursor: pointer; transition: var(--fast-trans), 0.1s ease-in-out transform; }
 .plain-btn:active { transform: translateY(3%); }
 
 /* hov icon */
 .hov-icon-circle,
-.default-icon-circle { border: none; outline: none; background: none; display: inline-block; padding: 5px; position: relative; color: var(--c-gray-60); transition: var(--fast-trans), 0.1s ease-in-out transform; cursor: pointer; }
+.default-icon-circle { border: none; background: none; display: inline-block; padding: 5px; position: relative; color: var(--c-gray-60); transition: var(--fast-trans), 0.1s ease-in-out transform; cursor: pointer; }
 .hov-icon-circle:active,
 .default-icon-circle:active { transform: translateY(3%); }
 

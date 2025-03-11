@@ -10,7 +10,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-weight: unset;
 }
 
 body {
@@ -21,10 +20,10 @@ body {
     text-align: left;
     overflow: hidden;
 }
-input, 
-textarea, 
+input,
+textarea,
 select,
-button { 
+button {
     font-family: var(--fw-regular); 
     font-size: 14px; 
     line-height: 1.3;

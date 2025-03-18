@@ -39,3 +39,7 @@ p { line-height: 1.4; color: var(--c-gray-40); }
 a { text-decoration: none; cursor: pointer; color: var(--c-link); }
 b { font-family: var(--font-bold); }
 
+
+/* icons */
+.fa-solid { color: var(--c-gray-80); }
+/* \\\ icons */

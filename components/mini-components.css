@@ -55,3 +55,15 @@
     .dropdown-options-container .dropdown-list.list-selected .dropdown-list-btn { background-color: #F5F7FA; }
 /* \\\ dropdown */
 
+
+
+/* popup */
+    .app-dialog-container { visibility: hidden; text-align: left; position: fixed; top: 0; bottom: 0; left: 0; right: 0; z-index: 1002; transition: var(--default-trans); }
+    .app-dialog-container.active { visibility: visible; background-color: var(--c-freezer-layer-bg); }
+    .app-dialog { max-width: 784px; width: calc(100% - 100px); overflow: hidden; border-radius: 10px; background-color: var(--c-white); position: fixed; top: 50%; left: 50%; transform: translate(-50%, -50%) scale(70%); visibility: hidden; opacity: 0; transition: var(--default-trans); }
+    .app-dialog-inner { position: relative; }
+    .app-dialog .close-icon-block { position: absolute; top: 15px; right: 15px; z-index: 2; }
+    .app-dialog-container.active .app-dialog { visibility: visible; opacity: 1; transform: translate(-50%, -50%) scale(100%); }
+    .app-dialog .app-dialog-body { max-height: calc(100vh - 240px); overflow-y: auto; }
+/* \\\ popup */
+

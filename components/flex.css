@@ -7,11 +7,6 @@
 
 .fG-1 { flex-grow: 1;}
 
-.d-none { display: none; }
-.d-block { display: block; }
-.d-in-block { display: inline-block; }
-
-
 /* horizontal alligment  */
 .jC-S { justify-content: start; }
 .jC-FE { justify-content: end; }
@@ -26,6 +21,9 @@
 .aI-C { align-items: center; }
 .aI-B { align-items: baseline; }
 .aI-stretch { align-items: stretch; }
+
+.fS-0 { flex-shrink: 0; }
+.fG-1 { flex-shrink: 0; }
 
 /* gap values  */
 .g-5 { gap: 5px; }

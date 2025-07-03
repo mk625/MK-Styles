@@ -1,13 +1,13 @@
 
 
 /* btns */
-.btn { min-width: 60px; height: 35px; padding: 0 24px; border: none; background: none; user-select: none; border-radius: var(--br-radius-global-md); color: var(--c-gray-95); text-align: start; cursor: pointer; transition: var(--default-trans); }
+.btn { min-width: 60px; height: 35px; padding: 0 24px; color: var(--c-white); border: none; background: none; user-select: none; border-radius: var(--br-radius-global-md); color: var(--c-gray-95); text-align: start; cursor: pointer; transition: var(--default-trans); }
 .btn:active { transform: translateY(3%); }
 
 .btn.btn-primary { background-color: var(--c-app-theme); }
 .btn.btn-primary:hover { background-color: var(--c-app-theme-dark); }
 
-.btn.btn-secondary { color: var(--c-gray-50); }
+.btn.btn-secondary { color: var(--c-gray-50); color: var(--c-gray-20); }
 .btn.btn-secondary:hover { color: var(--c-gray-80); }
 
 .btn.btn-warning { background-color: var(--c-status-red); }

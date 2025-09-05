@@ -27,13 +27,16 @@ button {
     font-family: inherit; 
     font-size: inherit; 
     line-height: inherit;
-    text-align: inherit;
 }
-button { cursor: pointer; }
+input,
+textarea,
+select {
+    text-align: start;
+}
+button { cursor: pointer; text-align: center; }
 ::placeholder { color: var(--c-gray-75); }
 
-h1, h2, h3, h4, h5, h6 { font-weight: var(--font-medium); }
-h1, h2, h3, h4, h5, h6, b, strong, th { font-weight: normal; }
+h1, h2, h3, h4, h5, h6, b, strong, th { font-weight: var(--font-medium); }
 ul li { list-style: none; }
 p { line-height: 1.4; color: var(--c-gray-40); }
 a { text-decoration: none; cursor: pointer; color: var(--c-link); }

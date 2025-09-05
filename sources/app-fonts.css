@@ -1,7 +1,7 @@
 
 
 @font-face {
-    font-family: "Zoho_Puvi_Regular";
+    font-family: "Puvi_Font";
     font-display: swap;
     src: url("https://mk625.github.io/MK-Styles/assets/Zohopuvi/Zoho_Puvi_Regular.woff2") format("woff2");
     font-weight: 400;
@@ -9,7 +9,7 @@
 }
 
 @font-face {
-    font-family: "Zoho_Puvi_Medium";
+    font-family: "Puvi_Font";
     font-display: swap;
     src: url("https://mk625.github.io/MK-Styles/assets/Zohopuvi/Zoho_Puvi_Medium.woff2") format("woff2");
     font-weight: 500;
@@ -17,7 +17,7 @@
 }
 
 @font-face {
-    font-family: "Zoho_Puvi_SemiBold";
+    font-family: "Puvi_Font";
     font-display: swap;
     src: url("https://mk625.github.io/MK-Styles/assets/Zohopuvi/Zoho_Puvi_SemiBold.woff2") format("woff2");
     font-weight: 600;
@@ -25,7 +25,7 @@
 }
 
 @font-face {
-    font-family: "Zoho_Puvi_Bold";
+    font-family: "Puvi_Font";
     font-display: swap;
     src: url("https://mk625.github.io/MK-Styles/assets/Zohopuvi/Zoho_Puvi_Bold.woff2") format("woff2");
     font-weight: 700;
@@ -33,16 +33,13 @@
 }
 
 :root {
-    --font-regular: Zoho_Puvi_Regular, sans-serif;
-    --font-medium: Zoho_Puvi_Medium, sans-serif;
-    --font-sbold: Zoho_Puvi_SemiBold, sans-serif;
-    --font-bold: Zoho_Puvi_Bold, sans-serif;
+    --font-puvi: Puvi_Font, sans-serif;
 }
 
 
-.font-regular { font-family: var(--font-regular); }
-.font-medium { font-family: var(--font-medium); }
-.font-sbold { font-family: var(--font-sbold); }
-.font-bold { font-family: var(--font-bold); }
+.font-regular { font-weight: var(--font-regular); }
+.font-medium { font-weight: var(--font-medium); }
+.font-sbold { font-weight: var(--font-sbold); }
+.font-bold { font-weight: var(--font-bold); }
 
 

@@ -29,6 +29,10 @@
 
 
     /* status */
+        --c-status-gray: #878787;
+        --c-status-gray-dark: #767676;
+        --c-light-status-gray: #d4d4d4;
+
         --c-status-orange: #d76903;
         --c-status-orange-dark: #E1720C;
         --c-light-status-orange: #FFF6ED;
@@ -44,6 +48,10 @@
         --c-status-green: #0A7741;
         --c-status-green-dark: #05723b;
         --c-light-status-green: #F1FAF6;
+
+        --c-status-yellow: #e7c000;
+        --c-status-yellow-dark: #cfad00;
+        --c-light-status-yellow: #f9faf1;
     /* \\\ status */
 
 
@@ -103,3 +111,17 @@
 /* \\\ text */
 
 
+/* status colors */
+    .status-green {
+        --c-status: var(--c-status-green)
+    }
+    .status-red {
+        --c-status: var(--c-status-red)
+    }
+    .status-orange {
+        --c-status: var(--c-status-orange)
+    }
+    .status-yellow {
+        --c-status: var(--c-status-yellow)
+    }
+/* \\\ status colors */

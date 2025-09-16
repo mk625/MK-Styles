@@ -118,6 +118,9 @@
     .status-red {
         --c-status: var(--c-status-red)
     }
+    .status-blue {
+        --c-status: var(--c-status-blue)
+    }
     .status-orange {
         --c-status: var(--c-status-orange)
     }

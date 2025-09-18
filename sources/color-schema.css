@@ -108,6 +108,14 @@
 /* text */
     .link { color: var(--link); }
     .c-link { color: var(--c-link); }
+
+    /* status */
+        .c-status-red { color: var(--c-status-red); }
+        .c-status-green { color: var(--c-status-green); }
+        .c-status-blue { color: var(--c-status-blue); }
+        .c-status-orange { color: var(--c-status-orange); }
+        .c-status-yellow { color: var(--c-status-yellow); }
+    /* \\\ status */
 /* \\\ text */
 
 

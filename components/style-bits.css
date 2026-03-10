@@ -488,9 +488,18 @@
 
 
 /* text manipulation */
-.txt-elps { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
-.ws-nw { white-space: nowrap; }
-.txt-pre-wrap { white-space: pre-wrap; }
+    .txt-elps { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+    .ws-nw { white-space: nowrap; }
+    .txt-pre-wrap { white-space: pre-wrap; }
+
+    .txt-center { text-align: center; }
+    .txt-start { text-align: start; }
+    .txt-end { text-align: end; }
+
+    .txt-cap { text-transform: capitalize; }
+    .txt-up { text-transform: uppercase; }
+    .txt-low { text-transform: lowercase; }
+/* text manipulation */
 
 
 /* line height */

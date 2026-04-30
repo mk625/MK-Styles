@@ -42,9 +42,9 @@
 }
 
 
-.fw-regular { font-weight: 400; }
-.fw-medium { font-weight: 500; }
-.fw-sbold { font-weight: 600; }
-.fw-bold { font-weight: 700; }
+.fw-regular { font-weight: var(--fw-regular); }
+.fw-medium { font-weight: var(--fw-medium); }
+.fw-sbold { font-weight: var(--fw-sbold); }
+.fw-bold { font-weight: var(--fw-bold); }
 
 

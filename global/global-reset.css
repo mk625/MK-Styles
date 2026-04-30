@@ -37,6 +37,10 @@ button { cursor: pointer; text-align: center; }
 ::placeholder { color: var(--c-gray-75); }
 
 h1, h2, h3, h4, h5, h6, b, strong, th { font-weight: var(--fw-medium); }
+h4 { font-size: 18px; }
+h5 { font-size: 14px; }
+h6 { font-size: 12px; }
+
 ul { list-style: none; }
 p { line-height: 1.4; color: var(--c-gray-40); }
 a { text-decoration: none; cursor: pointer; color: var(--c-link); }

@@ -33,13 +33,18 @@
 }
 
 :root {
-    --font-puvi: Puvi_Font, sans-serif;
+    --font__puvi: Puvi_Font, sans-serif;
+
+    --fw-regular: 400;
+    --fw-medium: 500;
+    --fw-sbold: 600;
+    --fw-bold: 700;
 }
 
 
-.font-regular { font-weight: 400; }
-.font-medium { font-weight: 500; }
-.font-sbold { font-weight: 600; }
-.font-bold { font-weight: 700; }
+.fw-regular { font-weight: 400; }
+.fw-medium { font-weight: 500; }
+.fw-sbold { font-weight: 600; }
+.fw-bold { font-weight: 700; }
 
 

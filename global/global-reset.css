@@ -13,7 +13,7 @@
 }
 
 body {
-    font-family: var(--font-puvi);
+    font-family: var(--font__puvi);
     color: var(--c-gray-10);
     font-size: 14px;
     line-height: 1.3;
@@ -36,11 +36,11 @@ select {
 button { cursor: pointer; text-align: center; }
 ::placeholder { color: var(--c-gray-75); }
 
-h1, h2, h3, h4, h5, h6, b, strong, th { font-weight: var(--font-medium); }
+h1, h2, h3, h4, h5, h6, b, strong, th { font-weight: var(--fw-medium); }
 ul { list-style: none; }
 p { line-height: 1.4; color: var(--c-gray-40); }
 a { text-decoration: none; cursor: pointer; color: var(--c-link); }
-b { font-weight: var(--font-bold); }
+b { font-weight: var(--fw-bold); }
 
 
 

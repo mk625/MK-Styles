@@ -483,8 +483,14 @@
 /* \\\ sizes */
 
 /* height */
-.h100 { height: 100%; }
+    .h100 { height: 100%; }
 /* \\\ height */
+
+/* scroll */
+    .scroll-x { overflow-x: auto; }
+    .scroll-y { overflow-y: auto; }
+    .scroll-auto { overflow: auto; }
+/* \\\ scroll */
 
 
 /* text manipulation */

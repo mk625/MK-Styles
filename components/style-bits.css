@@ -513,3 +513,20 @@
 /* \\\ line height */
 
 
+/* visual */
+    .vis-hidden { visibility: hidden; }
+    .vis-visible { visibility: visible; }
+
+    .opac-0 { opacity: 0; }
+    .opac-10 { opacity: 10%; }
+    .opac-20 { opacity: 20%; }
+    .opac-30 { opacity: 30%; }
+    .opac-40 { opacity: 40%; }
+    .opac-50 { opacity: 50%; }
+    .opac-60 { opacity: 60%; }
+    .opac-70 { opacity: 70%; }
+    .opac-80 { opacity: 80%; }
+    .opac-90 { opacity: 90%; }
+    .opac-100 { opacity: 100%; }
+/* \\\ visual */
+

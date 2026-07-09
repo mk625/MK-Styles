@@ -497,6 +497,7 @@
     .txt-elps { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
     .ws-nw { white-space: nowrap; }
     .txt-pre-wrap { white-space: pre-wrap; }
+    .of-hidden { overflow: hidden; }
 
     .txt-center { text-align: center; }
     .txt-start { text-align: start; }
